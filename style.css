@@ -1,0 +1,35 @@
+body {
+    background-color: black;
+}
+
+.row1 {
+    display: flex;
+    border-color: red;
+    border-style: solid;
+    align-items: center;
+}
+
+.row2 {
+    display: flex;
+    border-color: red;
+    border-style: solid;
+}
+
+.row3 {
+    display: flex;
+    border-color: red;
+    border-style: solid;
+}
+
+.row4 {
+    display: flex;
+    border-color: red;
+    border-style: solid;
+}
+
+div {
+    width: 300px;
+    border: 15px solid red;
+    padding: 50px;
+    margin: 20px;
+}
