@@ -1,7 +1,10 @@
-const newDiv = document.createElement('div');
+let newDiv = document.createElement('div');
+let square = document.createElement('div');
+newDiv.id = "container"
+    newDiv.className = "square"
+        newDiv.style.backgroundColor = "black";
+console.log(square)
 
-newDiv.className = "row1";
-newDiv.className = "row2";
-newDiv.className = "row3";
-newDiv.className = "row4";
+const element  = document.getElementById("container")
 
+document.getElementById("container").addEventListener("mousehover"); 

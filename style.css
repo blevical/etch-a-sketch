@@ -1,35 +1,30 @@
-body {
-    background-color: black;
+.square {
+    display: flex;
+    flex-direction:row;
+    width: 16px;
+    height: 16px;
+    border: 5px solid red;
 }
+
+/*Setting all rows to a display flex, flex-direction:row,
+allows for a grid to be created.*/
 
 .row1 {
     display: flex;
-    border-color: red;
-    border-style: solid;
-    align-items: center;
+    flex-direction: row;
 }
 
 .row2 {
     display: flex;
-    border-color: red;
-    border-style: solid;
+    flex-direction: row;
 }
 
 .row3 {
     display: flex;
-    border-color: red;
-    border-style: solid;
+    flex-direction: row;
 }
 
 .row4 {
     display: flex;
-    border-color: red;
-    border-style: solid;
-}
-
-div {
-    width: 300px;
-    border: 15px solid red;
-    padding: 50px;
-    margin: 20px;
+    flex-direction: row;
 }
