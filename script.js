@@ -1,10 +1,17 @@
-let newDiv = document.createElement('div');
-let square = document.createElement('div');
+let newDiv = document.createElement("div");
+let square = document.createElement("div");
+const squares = document.querySelectorAll(".square");
+const createbutton = document.createElement("createButton")
 newDiv.id = "container"
     newDiv.className = "square"
-        newDiv.style.backgroundColor = "black";
 console.log(square)
+squares.forEach(square => {
+    square.addEventListener("mouseover", function() {
+        this.style.backgroundColor = "black";
+    });
 
-const element  = document.getElementById("container")
+    square.addEventListener("mouseout", function() {
+        this.style.backgroundColor = "";
+    });
+});
 
-document.getElementById("container").addEventListener("mousehover"); 

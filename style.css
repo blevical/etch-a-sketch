@@ -28,3 +28,9 @@ allows for a grid to be created.*/
     display: flex;
     flex-direction: row;
 }
+
+.button-style {
+    background-color: blue;
+    padding: 10px 20px;
+    border-color: black;
+}
