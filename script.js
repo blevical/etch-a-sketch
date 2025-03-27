@@ -1,17 +1,15 @@
-let newDiv = document.createElement("div");
-let square = document.createElement("div");
-const squares = document.querySelectorAll(".square");
-const createbutton = document.createElement("createButton")
-newDiv.id = "container"
-    newDiv.className = "square"
-console.log(square)
-squares.forEach(square => {
-    square.addEventListener("mouseover", function() {
-        this.style.backgroundColor = "black";
-    });
+const newDiv = document.createElement("div");
+newDiv.setAttribute("class", 16)
+newDiv.className = "square"
 
-    square.addEventListener("mouseout", function() {
-        this.style.backgroundColor = "";
-    });
-});
+const newButton = document.createElement("button")
 
+const square = 16
+const button = document.querySelector("button");
+
+const addingSquares = document.getElementById("#button")
+
+function moreSquares() {
+    for (let i = 0; i < square; square++) {
+        const addedSquares = 
+    }
