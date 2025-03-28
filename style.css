@@ -1,7 +1,36 @@
+div {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-top: 50px;
+}
+
+
+
 .square {
     display: flex;
     flex-direction:row;
-    width: 16px;
-    height: 16px;
+    width: 20px;
+    height: 20px;
     border: 5px solid red;
+    padding: 15px;
+}
+
+.row {
+    border-color: black;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.column {
+    display: flex;
+    flex-direction: column;
+}
+.row {
+    display: flex;
+    flex-direction: row;
 }
