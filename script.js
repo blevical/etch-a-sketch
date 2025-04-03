@@ -9,6 +9,7 @@ function createSquares() {
         newDiv.appendChild(square);
         button.addEventListener("click", createSquares);
     }
+    //Added sketch function insde of createSquares function
     sketch();
 }
 
