@@ -1,0 +1,24 @@
+div {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 50px;
+}
+
+.square {
+    display: flex;
+    flex-direction:row;
+    width: 10px;
+    height: 10px;
+    border: 5px solid red;
+    padding: 15px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    background-color: aqua;
+    border-color: white;
+}
